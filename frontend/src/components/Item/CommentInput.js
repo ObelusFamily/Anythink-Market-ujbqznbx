@@ -27,6 +27,7 @@ const CommentInput = (props) => {
         <textarea
           className="form-control"
           placeholder="Write a comment..."
+          value={body}
           onChange={(ev) => setBody(ev.target.value)}
           rows="3"
         ></textarea>
