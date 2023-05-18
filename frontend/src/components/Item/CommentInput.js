@@ -19,7 +19,7 @@ const CommentInput = (props) => {
     }).then((payload) => {
       props.onSubmit(payload);
     });
-    setBody({ body: "" });
+    setBody("");
   };
   return (
     <form className="card comment-form m-2" onSubmit={createComment}>
